@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Juyal — ML & NLP | Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Ayush Juyal — Data Scientist (ML & NLP). Streamlit apps, explainable AI, and end-to-end ML projects." />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .muted-note {
+      display: inline-flex;
+      align-items: center;
+      gap: .6rem;
+      font-size: 1.4rem;
+      color: #ffffff80;
+      background: var(--second-bg-color);
+      padding: .8rem 1rem;
+      border-radius: .6rem
+    }
+
+    .muted-note i {
+      font-size: 1.8rem;
+      color: #ffffff66
+    }
+
+    .hero-sci a i {
+      font-size: 2.2rem
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="active">
+    <a href="#home" class="logo">Portfolio.</a>
+    <i class="bx bx-menu" id="menu-icon" aria-label="Menu" role="button" tabindex="0"></i>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#resume">Resume</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- intro bars -->
+  <div class="bars-box active" aria-hidden="true">
+    <div class="bar" style="--i:6"></div>
+    <div class="bar" style="--i:5"></div>
+    <div class="bar" style="--i:4"></div>
+    <div class="bar" style="--i:3"></div>
+    <div class="bar" style="--i:2"></div>
+    <div class="bar" style="--i:1"></div>
+  </div>
+
+  <!-- home -->
+  <section class="home active" id="home">
+    <div class="home-detail">
+      <h1>Ayush Juyal</h1>
+      <h2>I'm a Data Scientist (ML & NLP)</h2>
+      <p>
+        M.Sc. Data Science student at TU Braunschweig with hands-on experience building and deploying ML apps — from
+        TF-IDF text classifiers to explainable computer vision and a full-stack price-prediction app.
+      </p>
+      <div class="btn-sci">
+        <a href="AYUSH_CV.pdf" class="btn" download>Download CV</a>
+        <div class="sci hero-sci">
+          <a href="mailto:aayushjuyal0@gmail.com" aria-label="Email"><i class="bx bxl-gmail"></i></a>
+          <a href="https://github.com/ayush009" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/ayushjuyal1" target="_blank" rel="noopener" aria-label="LinkedIn"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://www.xing.com/profile/Ayush_Juyal/web_profiles?nwt_nav=profile_icon&sc_o=navigation_profile_icon"
+            target="_blank" rel="noopener" aria-label="Xing"><i class="bx bxl-xing"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="AyushLinkdln.jpg" alt="Portrait of Ayush Juyal" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+      <!-- Machine Learning & NLP -->
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-brain"></i>
+          <a href="https://nlp-feedback-analyzer-qfb7bs2p97snmj86n6mwcg.streamlit.app/" target="_blank" rel="noopener"
+            aria-label="Open NLP app">
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+        <h3>Machine Learning & NLP</h3>
+        <p>End-to-end text pipelines with TF-IDF, scikit-learn (MultinomialNB, RandomForest), metrics (accuracy,
+          confusion matrix, report), and model packaging to <code>.pkl</code>.</p>
+      </div>
+
+      <!-- ML Apps & Deployment -->
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-rocket"></i>
+          <a href="https://used-car-price-prediction-25u64zprg295v29cp2nruw.streamlit.app/" target="_blank"
+            rel="noopener" aria-label="Open DriveWorth app">
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+        <h3>ML Apps & Deployment</h3>
+        <p>Streamlit/Flask frontends, clean UX for real-time predictions, environment management, and deployment to
+          Streamlit Cloud.</p>
+      </div>
+
+      <!-- Data Engineering -->
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-data"></i>
+          <a href="#portfolio" aria-label="See data projects in portfolio">
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+        <h3>Data Engineering</h3>
+        <p>EDA, preprocessing, feature engineering, and reproducible project structure with version control best
+          practices.</p>
+      </div>
+
+      <!-- Explainable AI -->
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-analyse"></i>
+          <a href="https://github.com/ayush009/Explainable-ai-GradCam" target="_blank" rel="noopener"
+            aria-label="Open Explainable AI repo">
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+        <h3>Explainable AI</h3>
+        <p>Transparency with SHAP, Grad-CAM, and RISE — clear visuals & stakeholder-friendly reporting.</p>
+      </div>
+
+      <!-- Visualization & Reporting -->
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-bar-chart-alt-2"></i>
+          <a href="viz.html" aria-label="Open Visualization samples">
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+        <h3>Visualization & Reporting</h3>
+        <p>Tell the story behind your metrics.</p>
+        <ul class="mini-list">
+          <li>Before/after impact dashboards</li>
+          <li>Error analysis deep-dive</li>
+          <li>SHAP summary & force plots</li>
+          <li>Export to PDF/PNG + exec summary</li>
+        </ul>
+        <a class="card-cta" href="viz.html">
+          <i class='bx bx-right-arrow-alt'></i><span>See a sample</span>
+        </a>
+      </div>
+
+      <!-- Software Engineering -->
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-code-block"></i>
+          <a href="https://github.com/ayush009/PaymentProcessingTask1" target="_blank" rel="noopener"
+            aria-label="Open Software Engineering repo">
+            <i class="bx bx-right-arrow-alt"></i>
+          </a>
+        </div>
+        <h3>Software Engineering</h3>
+        <p>Agile teamwork, testing, documentation; Java/C#/.NET foundations and Git workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- resume -->
+  <section class="resume" id="resume">
+    <div class="resume-container">
+      <div class="resume-box">
+        <h2>Why Hire Me?</h2>
+        <p class="desc">
+          Hands-on ML/NLP with shipped apps, explainability, and a solid software-engineering base. Comfortable turning
+          ideas into reliable, user-facing tools.
+        </p>
+        <button class="resume-btn active">Experience</button>
+        <button class="resume-btn">Education</button>
+        <button class="resume-btn">Skills</button>
+        <button class="resume-btn">About Me</button>
+      </div>
+
+      <div class="resume-box">
+        <!-- Experience -->
+        <div class="resume-detail experience active">
+          <h2 class="heading">My <span>Experience</span></h2>
+          <p class="desc">Projects and industry exposure focused on scalable ML and readable code.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">2020 – 2021</p>
+              <h3>Programmer Analyst Trainee</h3>
+              <p class="company">Cognizant Technology Solutions</p>
+              <p>Optimized SQL in large databases (runtime ↓ ~30%). Supported .NET/React projects and backend ops for a
+                US ISP.</p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">2025</p>
+              <h3>DriveWorth — Used-Car Price Prediction</h3>
+              <p class="company">Streamlit app (XGBoost/RandomForest/CatBoost)</p>
+              <p>R² ≈ 0.91 with owner-correction logic, SHAP explainability, and live INR→EUR FX; polished UI &
+                deployment.</p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">2025</p>
+              <h3>“36 Questions of Love” — NLP Classifier</h3>
+              <p class="company">End-to-end text classification app</p>
+              <p>
+                Designed and trained <strong>Multinomial Naive Bayes</strong> and <strong>Random Forest</strong> to
+                predict speakers’ responses using TF-IDF features. Evaluated with accuracy, confusion matrices, and
+                classification reports. Built an interactive <strong>Streamlit</strong> web app for real-time
+                predictions & model evaluation. Managed environments and version control (Git/GitHub), and deployed on
+                Streamlit Cloud.
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">2025</p>
+              <h3>Explainable AI for Vision</h3>
+              <p class="company">Grad-CAM / RISE / SHAP</p>
+              <p>Developed visual interpretations for deep CNNs in a research/cluster setup; improved transparency in
+                image classification.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="resume-detail education">
+          <h2 class="heading">My <span>Education</span></h2>
+          <p class="desc">Academic training spanning ML, NLP, big data, and software engineering.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">2023 – 2026</p>
+              <h3>M.Sc. in Data Science</h3>
+              <p class="company">Technische Universität Braunschweig, Germany</p>
+              <p>Built NLP classifier app (Python/Streamlit). Optimized explainable AI models (Grad-CAM/RISE/SHAP).</p>
+            </div>
+
+            <div class="resume-item">
+              <p class="year">2016 – 2020</p>
+              <h3>B.Tech. in Computer Science (Big Data Analytics)</h3>
+              <p class="company">Graphic Era University, India</p>
+              <p>Java EE Student Management System (MVC); ML mini-project on Iris classification.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="resume-detail skills">
+          <h2 class="heading">My <span>Skills</span></h2>
+          <p class="desc">Daily drivers & tools I’m comfortable with.</p>
+          <div class="resume-list">
+            <div class="resume-item"><i class="bx bxl-python"></i><span>Python</span></div>
+            <div class="resume-item"><i class="bx bx-data"></i><span>SQL</span></div>
+            <div class="resume-item"><i class="bx bxl-java"></i><span>Java</span></div>
+            <div class="resume-item"><i class="bx bxl-microsoft"></i><span>C# / .NET</span></div>
+            <div class="resume-item"><i class="bx bx-network-chart"></i><span>ML / scikit-learn</span></div>
+            <div class="resume-item"><i class="bx bx-brain"></i><span>NLP (TF-IDF, MultinomialNB, RF)</span></div>
+            <div class="resume-item"><i class="bx bx-analyse"></i><span>Explainable AI (SHAP, Grad-CAM, RISE)</span>
+            </div>
+            <div class="resume-item"><i class="bx bx-grid-alt"></i><span>Pandas / NumPy</span></div>
+            <div class="resume-item"><i class="bx bx-bar-chart-alt-2"></i><span>Tableau / Viz</span></div>
+            <div class="resume-item"><i class="bx bx-cloud"></i><span>AWS (basics)</span></div>
+            <div class="resume-item"><i class="bx bx-git-branch"></i><span>Git & GitHub</span></div>
+            <div class="resume-item"><i class="bx bx-cog"></i><span>Agile, Testing, Deploy</span></div>
+          </div>
+        </div>
+
+        <!-- About -->
+        <div class="resume-detail about">
+          <h2 class="heading">About <span>Me</span></h2>
+          <p class="desc">
+            Motivated by practical, user-centered AI. Currently exploring GenAI assistants (DataGenie) that blend LLMs
+            with rule-based reasoning for automated data exploration and visualization.
+          </p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p>Name<span>Ayush Juyal</span></p>
+            </div>
+            <div class="resume-item">
+              <p>City<span>Braunschweig, Germany</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Work Auth<span>Student (20 hrs/week)</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Languages<span>English, German (A2→B1)</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Interests<span>Conversational AI, GenAI</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <!-- left column -->
+      <div class="portfolio-box">
+        <div class="portfolio-detail active">
+          <p class="numb">01</p>
+          <h3>DriveWorth — Used-Car Price Prediction (2025)</h3>
+          <p>
+            Full-stack ML app with XGBoost/RandomForest/CatBoost (R² ≈ 0.91), owner-correction logic, SHAP
+            explainability, and live INR→EUR rates in a polished Streamlit UI.
+          </p>
+          <div class="tech">
+            <p>Python · Streamlit · scikit-learn · SHAP</p>
+          </div>
+          <div class="live-github">
+            <a href="https://used-car-price-prediction-25u64zprg295v29cp2nruw.streamlit.app/" target="_blank"
+              rel="noopener">
+              <i class="bx bx-arrow-back"></i><span>Live Demo</span>
+            </a>
+            <a href="https://github.com/ayush009/used-car-price-prediction" target="_blank" rel="noopener">
+              <i class="bx bxl-github"></i><span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">02</p>
+          <h3>“36 Questions of Love” — NLP Classifier (2025)</h3>
+          <p>Streamlit NLP app using TF-IDF + MultinomialNB & RandomForest with accuracy/CM/report, clean project
+            structure and deployment.</p>
+          <div class="tech">
+            <p>Python · scikit-learn · TF-IDF · MultinomialNB · RandomForest · Streamlit</p>
+          </div>
+          <div class="live-github">
+            <a href="https://nlp-feedback-analyzer-qfb7bs2p97snmj86n6mwcg.streamlit.app/" target="_blank"
+              rel="noopener">
+              <i class="bx bx-arrow-back"></i><span>Live Demo</span>
+            </a>
+            <a href="https://github.com/ayush009/nlp-feedback-analyzer" target="_blank" rel="noopener">
+              <i class="bx bxl-github"></i><span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">03</p>
+          <h3>Explainable AI for Vision (2025)</h3>
+          <p>Grad-CAM, RISE and SHAP visual interpretations for CNNs to improve transparency of image classification.
+          </p>
+          <div class="tech">
+            <p>Python · Computer Vision · Explainability</p>
+          </div>
+          <div class="live-github">
+            <a href="https://github.com/ayush009/Explainable-ai-GradCam" target="_blank" rel="noopener">
+              <i class="bx bxl-github"></i><span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">04</p>
+          <h3>DataGenie (WIP) (2025)</h3>
+          <p>GenAI analytics assistant that combines LLMs with rule-based reasoning to automate data exploration and
+            visualization.</p>
+          <div class="tech">
+            <p>Python · LLMs · Prompting</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- right column: screenshots carousel -->
+      <div class="portfolio-box">
+        <div class="portfolio-carousel">
+          <div class="img-slide">
+            <div class="img-item"><img src="images/DriveWorth.png" alt="DriveWorth Streamlit app screenshot" /></div>
+            <div class="img-item"><img src="images/Metrics%20Report.png" alt="NLP classifier metrics / report" /></div>
+            <div class="img-item"><img src="images/sample1_class14_saliency.png"
+                alt="Grad-CAM / RISE saliency heatmap" /></div>
+          </div>
+        </div>
+        <div class="navigation">
+          <button class="arrow-left disabled" aria-label="Previous project"><i class="bx bx-chevron-left"></i></button>
+          <button class="arrow-right" aria-label="Next project"><i class="bx bx-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-box">
+        <h2>Let's Work Together</h2>
+        <p class="desc">Practical AI, clear reporting, measurable impact. If that’s your vibe too, let’s talk.</p>
+        <div class="contact-detail">
+          <i class="bx bxs-envelope"></i>
+          <div class="detail">
+            <p>Email</p>
+            <p><a href="mailto:aayushjuyal0@gmail.com">aayushjuyal0@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class="bx bxs-map"></i>
+          <div class="detail">
+            <p>Address</p>
+            <p>Braunschweig, Germany</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-box">
+        <!-- ✅ Formspree (no JS needed). Replace abcdwxyz with your real form ID -->
+        <form id="contact-form" class="no-labels">
+          <div class="field-box">
+            <input name="name"    type="text"   placeholder="Full Name" required />
+            <input name="email"   type="email"  placeholder="Email Address" required />
+            <input name="subject" type="text"   placeholder="Subject" required />
+            <textarea id="cf-message" name="message" placeholder="Your Message" required></textarea>
+            <!-- Honeypot -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+          </div>
+        
+          <button class="btn" type="submit">Send Message</button>
+          <p id="cf-status" style="margin-top:1rem;font-size:1.4rem;"></p>
+        </form>
+        
+        <script>
+        (() => {
+          const FORM_ID     = 'meorzvzg';                          // <-- your Formspree id
+          const ENDPOINT    = `https://formspree.io/f/${FORM_ID}`;
+          const THANKS_PAGE = 'thanks.html';                       // relative or absolute
+        
+          const form   = document.getElementById('contact-form');
+          const status = document.getElementById('cf-status');
+        
+          form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            status.textContent = 'Sending…';
+            status.className = '';
+        
+            try {
+              const data = new FormData(form);
+              const res  = await fetch(ENDPOINT, {
+                method: 'POST',
+                body: data,
+                headers: { 'Accept': 'application/json' }          // important for API response
+              });
+        
+              if (res.ok) {
+                window.location.href = THANKS_PAGE;                // client-side redirect (Free plan)
+                return;
+              }
+        
+              // Try to read error details
+              let msg = 'Submission failed';
+              try {
+                const json = await res.json();
+                msg = json?.error || json?.message || msg;
+              } catch {}
+              status.textContent = msg;                            // e.g., "Form not found"
+              status.className = 'error';
+        
+            } catch (err) {
+              status.textContent = 'Network error — please try again.';
+              status.className = 'error';
+            }
+          });
+        })();
+        </script>
+        
+        
+
+
+
+
+
+        <noscript>
+          <p style="margin-top:.8rem">JavaScript is disabled. The form still works via Formspree.</p>
+        </noscript>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
